@@ -2,6 +2,7 @@ import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../features/home/home_page.dart';
+import '../../features/location/location_settings_page.dart';
 import '../../features/onboarding/onboarding_page.dart';
 import '../router/app_routes.dart';
 import '../shell/app_shell.dart';
@@ -23,6 +24,10 @@ GoRouter appRouter(Ref ref) {
           GoRoute(
             path: AppRoutes.home,
             builder: (context, state) => const HomePage(),
+          ),
+          GoRoute(
+            path: AppRoutes.locationSettings,
+            builder: (context, state) => const LocationSettingsPage(),
           ),
         ],
       ),
