@@ -41,7 +41,7 @@ final class LocationConfigProvider
   }
 }
 
-String _$locationConfigHash() => r'168795d6e593e73993e7bfddcd5052df331bece6';
+String _$locationConfigHash() => r'53f453395b70c57a6f38c4b261a8268099276c2f';
 
 abstract class _$LocationConfig extends $Notifier<AppLocation> {
   AppLocation build();
