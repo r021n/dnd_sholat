@@ -41,7 +41,7 @@ final class PrayerCalcConfigProvider
   }
 }
 
-String _$prayerCalcConfigHash() => r'20e39ae6ac0f78f9451b502cbe1cdb2313a36a34';
+String _$prayerCalcConfigHash() => r'ab658ff5484a660468b42c47dec0e7b16fa5c9dc';
 
 abstract class _$PrayerCalcConfig extends $Notifier<PrayerCalcConfigModel> {
   PrayerCalcConfigModel build();
